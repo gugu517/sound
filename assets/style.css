@@ -38,3 +38,17 @@
 .shell{position:relative;z-index:1}
 body.running .shell{background:transparent}
 @media(prefers-reduced-motion:reduce){#speedField{display:none}}
+/* Test logging stays outside the instrument; one small steady status dot. */
+#recordButton{display:flex;align-items:center;justify-content:center}
+.record-dot{display:block;width:13px;height:13px;border:1.5px solid #9b96a9;border-radius:50%}
+#recordButton.recording .record-dot{background:#ff697c;border-color:#ff697c;box-shadow:0 0 12px #ff697c55}
+#recordButton.record-error .record-dot{border-color:#ffb56b;background:#ffb56b}
+#recordStatus{font-size:18px;color:#d9cfff;margin:20px 0;min-height:28px}
+.record-actions{display:flex;gap:12px;flex-wrap:wrap}
+.record-actions button{padding:13px 18px;border:1px solid #5b526b;border-radius:30px;font-size:17px}
+.record-actions button:disabled{opacity:.35}
+.record-row{display:flex;align-items:center;gap:12px;padding:20px 0;border-top:1px solid #2b2931}
+.record-row>div{flex:1;font-size:16px}.record-row small{display:block;font-size:13px;color:#8f8a9b;margin-top:7px}
+.record-row button{font-size:14px;color:#c4b4ff;padding:9px 3px}
+
+#uploadPanel{border-top:1px solid #39333f;margin-top:24px;padding-top:12px}#uploadPanel h3{font-weight:400;font-size:21px}#uploadToken{width:100%;background:#09090b;color:#fff;border:1px solid #51485d;border-radius:8px;font:16px monospace;padding:14px}#uploadPanel a{color:#c4b4ff}#uploadResult{overflow-wrap:anywhere}
