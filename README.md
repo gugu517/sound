@@ -1,0 +1,21 @@
+# 声浪仪表盘
+
+面向横屏车机的纯黑声浪仪表盘，提供 18 款合成声浪、演示/GPS 模式、加速数字张力、边缘光影和随速度变化的 Three.js 流光背景。
+
+## 本地预览
+
+需要 Python 3。双击 `start.bat`，或执行 `python serve.py`，访问 http://127.0.0.1:8766/。
+
+## GitHub Pages
+
+仓库 Settings → Pages → Build and deployment 选择 GitHub Actions，然后运行 Deploy Pages 工作流。所有界面资源本地托管，支持仓库子路径。
+
+## 当前限制
+
+- 现有声浪引擎和 AudioWorklet 来自 tslbox.top 的公开前端，保留其域名校验。新部署域名上的声音可能被拒绝；上传代码与页面部署不代表声浪功能已在该域名验证。
+- GPS 需要 HTTPS 和定位权限，尚未在 ES6 实车验证，无法直接读取车辆 CAN 总线车速。
+- 不包含支付、打赏功能。声音为程序合成。
+
+## 第三方来源
+
+界面、仪表交互及流光逻辑为本项目调整；声浪引擎源自 tslbox.top，未附带明确的再分发授权声明。第三方动画库许可见 `assets/vendor/`，其中 Anime.js 与 Three.js 使用 MIT 许可。不能将整个项目视为已获 MIT 授权。
