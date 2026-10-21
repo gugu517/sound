@@ -23,3 +23,5 @@
 ## 测试数据记录
 
 右上角圆点可开始/停止本地记录，上传至本仓库或导出 JSON。说明与字段见 [RECORDING.md](RECORDING.md)。默认不记录、不上传。
+
+上传服务：https://sound-upload-gugu517.guguc6877.chatgpt.site 。Token 仅在电脑端的一次性配置页设置，并在服务端加密保存；车机输入上传密码。更新不迁移本地记录库。

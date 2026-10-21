@@ -51,4 +51,4 @@ body.running .shell{background:transparent}
 .record-row>div{flex:1;font-size:16px}.record-row small{display:block;font-size:13px;color:#8f8a9b;margin-top:7px}
 .record-row button{font-size:14px;color:#c4b4ff;padding:9px 3px}
 
-#uploadPanel{border-top:1px solid #39333f;margin-top:24px;padding-top:12px}#uploadPanel h3{font-weight:400;font-size:21px}#uploadToken{width:100%;background:#09090b;color:#fff;border:1px solid #51485d;border-radius:8px;font:16px monospace;padding:14px}#uploadPanel a{color:#c4b4ff}#uploadResult{overflow-wrap:anywhere}
+#uploadPanel{border-top:1px solid #39333f;margin-top:24px;padding-top:12px}#uploadPanel h3{font-weight:400;font-size:21px}#uploadPassword{width:100%;background:#09090b;color:#fff;border:1px solid #51485d;border-radius:8px;font:16px monospace;padding:14px}#uploadPanel a{color:#c4b4ff}#uploadResult{overflow-wrap:anywhere}
