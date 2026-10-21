@@ -25,3 +25,7 @@
 右上角圆点可开始/停止本地记录，上传至本仓库或导出 JSON。说明与字段见 [RECORDING.md](RECORDING.md)。默认不记录、不上传。
 
 上传服务：https://sound-upload-gugu517.guguc6877.chatgpt.site 。Token 仅在电脑端的一次性配置页设置，并在服务端加密保存；车机输入上传密码。更新不迁移本地记录库。
+
+## 不依赖上传后端的数据取回
+
+记录列表的“传到手机”可显示连续二维码，手机在 [接收页](https://gugu517.github.io/sound/receive.html) 收齐并校验后保存或分享 JSON。支持调校包与完整记录。详见 [QR-TRANSFER.md](QR-TRANSFER.md)。
